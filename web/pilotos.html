@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Cadastrar piloto</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="CadPiloto" method="POST">
+                Nome:
+                <input type="text" name="Nome" value="" /><br>
+                Email:
+                <input type="text" name="Email" value="" /><br>
+                CPF:
+                <input type="text" name="CPF" value="" /><br>
+                Data de nascimento:
+                <input type="text" name="Datanasc" value="" /><br>
+                Cidade:
+                <input type="text" name="Cidade" value="" /><br>
+                UF:
+                <select name="UF" size="1">
+                <option>AC</option>
+                <option>AL</option>
+                <option>AP</option>
+                <option>AM</option>
+                <option>BA</option>
+                <option>CE</option>
+                <option>DF</option>
+                <option>ES</option>
+                <option>GO</option>
+                <option>MA</option>
+                <option>MT</option>
+                <option>MS</option>
+                <option>MG</option>
+                <option>PA</option>
+                <option>PB</option>
+                <option>PR</option>
+                <option>PE</option>
+                <option>PI</option>
+                <option>RJ</option>
+                <option>RN</option>
+                <option>RS</option>
+                <option>RO</option>
+                <option>RR</option>
+                <option>SC</option>
+                <option>SP</option>
+                <option>SE</option>
+                <option>TO</option>
+            </select><br>
+                Modelo da moto:
+                <input type="text" name="ModeloMoto" value="" /><br>
+                Cilindradas:
+                <input type="text" name="Cilindradas" value="" /><br>
+                Marca:
+                <input type="text" name="Marca" value="" /><br>
+                <input type="submit" value="Cadastrar"/>
+                <input type="button" value="retornar" onclick="history.back()">
+        </form>
+    </body>
+</html>
