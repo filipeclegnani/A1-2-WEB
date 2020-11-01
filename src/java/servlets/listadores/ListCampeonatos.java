@@ -44,7 +44,11 @@ public class ListCampeonatos extends HttpServlet {
             out.println("<!DOCTYPE html>");
             out.println("<html>");
             out.println("<head>");
-            out.println("<title>Listar Campeonatos</title>");            
+            out.println("<title>Listar Campeonatos</title>");     
+            out.println("<link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css\">");
+            out.println("<script src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js\"></script>"); 
+            out.println("<script src=\"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js\"></script>"); 
+            out.println("<script src=\"https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js\"></script>"); 
             out.println("</head>");
             out.println("<body>");
             out.println("<input type=\"button\" value=\"retornar\" onclick=\"history.back()\">");
